@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiDialog-paperWidthSm {
+  max-width: 800px !important;
+}
+
+.MuiIconButton-root, .MuiTab-textColorPrimary.Mui-selected, .MuiButton-textPrimary {
+  color: rgb(73, 132, 204) !important;
+}
+
+.MuiIconButton-root:hover {
+  background-color: rgb(73, 132, 204) !important;
+  color: rgb(255, 255, 255) !important;
+}
+.MuiTableCell-head {
+  font-size: large !important;
+  color:rgb(73, 132, 204) !important;
+}
+
+.MuiGridList-root {
+  margin-top: 20px !important;
+}
+
+.MuiGridListTile-tile {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+  transition: 0.8s !important;
+  margin: 4px !important;
+}
+
+.MuiGridListTile-tile:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) !important;
+  transform: rotateX(25deg);
+}
+.MuiGridListTileBar-titleWrap {
+  padding: 2px 16px !important;
+}
