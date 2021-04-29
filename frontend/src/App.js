@@ -1,14 +1,14 @@
 //Global Imports
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { PersistGate } from 'redux-persist/lib/integration/react';
 import { ToastContainer, toast } from 'react-toastify';
 
 import { persistor, store } from './reducers/store';
 
 //Routes
-import Dashboard from './components/user/dashboard';
+import Dashboard from './components/dashboard';
 //CSS
 import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
