@@ -1,4 +1,4 @@
-# drive_explorer
+# About
 Explore windows drives and directories using beautiful UI made by using React.js &amp; backend using Node.js.
 
 # Technologies used
